@@ -1,3 +1,5 @@
+package tema3;
+
 public class Task10 {
     // Care este cel mai mic numar prim mai mare ca 1000?
     public static void main(String args[]) throws Exception{
