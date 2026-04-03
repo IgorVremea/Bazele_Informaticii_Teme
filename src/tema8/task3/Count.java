@@ -12,7 +12,7 @@ public class Count{
 			String fileName = consoleInput.readLine();
 			File file = new File(fileName);
 			if(!file.exists()) {
-				System.out.println("File doesn't exist");
+				System.out.println("File doesn't exist"); // Puteam să-l creez, dar nu am văzut sens...
 				return;
 			}
 			BufferedReader fileInput = new BufferedReader(new InputStreamReader(new FileInputStream(file), "UTF-8"));
