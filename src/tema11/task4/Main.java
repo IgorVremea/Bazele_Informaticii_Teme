@@ -31,7 +31,7 @@ public class Main {
 
 
         // Creem toate cate un avion de fiecare tip
-        Avion basic1 = new Avion("Avion Basic 1", 100000);
+        Avion basic1 = new Avion("Avion Basic 2", 100000);
         AvionCalator calator1 = new AvionCalator("Avion Calator 2", 300000, 400);
         AvionConcorde concorde1 = new AvionConcorde("Avion Calator Concorde 2", 1000000, 300);
         AvionDeLupta deLupta1 = new AvionDeLupta("Avion de Lupta 2", 600000);
