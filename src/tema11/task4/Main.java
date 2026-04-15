@@ -1,10 +1,5 @@
 package tema11.task4;
-// Sarcina:
-//ˆIntr-o metod ̆a main, declarat ̧i mai multe variabile referint ̧ ̆a. Obligatoriu, toate
-//variabilele vor avea acela ̧si tip declarat. Creat ̧i apoi mai multe avioane (cel
-//put ̧in unul de fiecare fel). Pentru a referi aceste obiecte folosit ̧i doar variabilele
-//amintite anterior bazˆandu-v ̆a pe mo ̧stenirea de tip. ˆIn continuare apelat ̧i
-//diferitele operat ̧ii disponibile fiec ̆arui avion/fel de avion.
+
 public class Main {
     public static void checkBasicAirplaneFunc(Avion avion){
         System.out.println('\n' + avion.getPlainID() + " (" + avion.getTotalEnginePower() + "N):");
