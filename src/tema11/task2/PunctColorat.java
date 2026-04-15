@@ -16,9 +16,4 @@ public class PunctColorat extends Punct {
                 ", colorCode=\"" + c + '\"' +
                 '}';
     }
-
-    public static void main(String[] args) {
-        PunctColorat pc = new PunctColorat(10, 10, "#1F1F1F");
-        System.out.println(pc);
-    }
 }
