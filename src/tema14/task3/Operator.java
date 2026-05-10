@@ -3,10 +3,10 @@ package tema14.task3;
 import java.util.ArrayList;
 
 public class Operator {
-    private ArrayList<Taxpayer> databasePersons;
+    private ArrayList<Taxpayer> taxpayers;
 
-    public Operator(ArrayList<Taxpayer> databasePersons){
-        this.databasePersons = databasePersons;
+    public Operator(ArrayList<Taxpayer> taxpayers){
+        this.taxpayers = taxpayers;
     }
 
     public int calculateTax(Property property){
@@ -30,7 +30,12 @@ public class Operator {
         }
         return res;
     }
-
+    public String printTicket(String searchRequest){
+        for(Taxpayer taxpayer : taxpayers){
+            if(taxpayer.getName().equals(searchRequest) || taxpayer.getCnp().equals(searchRequest)) return printTicket(taxpayer);
+        }
+        return "";
+    }
     public String printTicket(Taxpayer taxpayer){
         String str = "Contribuabil: " + taxpayer.getName() + "\n\n";
         str += "Proprietati\n";
